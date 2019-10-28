@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css?family=Handlee|Permanent+Marker&display=swap');
+body {
+    background-color: #272727;
+}
+
+#content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-container,
+.start-container {
+    width: 95%;
+    font-size: 20px;
+}
+
+.main-container {
+    margin: auto;
+    font-size: 20px;
+}
+
+.nav-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    width: 95%;
+    font-size: 20px;
+}
+
+.nav-spacer {
+    margin: auto 0 auto 25px;
+    border-left: 3px solid orange;
+    height: 40px;
+}
+
+.summary-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 95vh;
+    height: 90vh;
+    margin: auto;
+}
+
+.summary-text {
+    font-size: 3vh;
+    font-family: 'Handlee', cursive;
+    color: orange;
+}
+
+p.summary-text {
+    font-size: 2vh;
+    margin-left: 2vh;
+}
+
+.summary-container h1 {
+    font-size: 4vh;
+    text-align: center;
+    align-content: center;
+}
+
+.start-title-container {
+    display: flex;
+    flex-direction: column;
+    height: 80vh;
+    align-items: center;
+}
+
+.hr-line {
+    border: 1px solid #C3073F;
+    width: 100%;
+}
+
+.start-title-text {
+    font-family: 'Permanent Marker', cursive;
+    margin: auto;
+    color: orange;
+    text-align: center;
+    font-size: 15vh;
+}
+
+.start-button {
+    align-self: center;
+    border: none;
+    outline: none;
+    color: black;
+    font-family: 'Handlee', cursive;
+    font-size: 3vh;
+    background-color: orange;
+    height: 4vh;
+    opacity: .6;
+    transition: 0.3s;
+    width: 10vh;
+}
+
+.start-button:hover {
+    opacity: 1;
+}
+
+.project-container,
+.plan-container {
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    width: max-content;
+}
+
+.project-details,
+.plan-details {
+    padding-left: 5px;
+    margin: 2px 0 2px 0;
+    display: flex;
+    flex-direction: row;
+}
+
+.project-title-container {
+    min-width: 250px;
+}
+
+.project-desc-container {
+    margin: 0 25px 0 25px;
+    min-width: 550px;
+}
+
+.project-header {
+    margin: auto 0 auto 50px;
+    width: 95%;
+}
+
+.project-button,
+.new-plan-button,
+.project-delete-button {
+    margin-top: 35px;
+    min-width: 150px;
+    height: 25px;
+    padding: 0;
+    border: none;
+    color: #C3073F;
+    background-color: rgba(0, 0, 0, 0);
+    font-family: 'Handlee', cursive;
+    font-size: 20px;
+    transition: 0.3s;
+    outline: none;
+}
+
+.project-button:focus {
+    outline: 0;
+}
+
+.new-plan-button {
+    margin: 20px 0 0 20px;
+    min-width: 100px;
+    text-align: left;
+}
+
+.project-button:hover,
+.new-plan-button:hover,
+.project-delete-button:hover {
+    font-size: 120%;
+    font-weight: 700;
+}
+
+.title-text {
+    font-family: 'Permanent Marker', cursive;
+    color: orange;
+    height: 30px;
+}
+
+.plan-details {
+    color: black;
+    font-family: 'Handlee', cursive;
+}
+
+
+/* Checkbox styling */
+
+.plan-checkbox-container {
+    display: flex;
+    margin: auto 10px auto 2px;
+    height: 25px;
+    width: 110px;
+    align-items: center;
+}
+
+.plan-checkbox {
+    margin: auto;
+    min-width: 25px;
+    transform: scale(1.5);
+}
